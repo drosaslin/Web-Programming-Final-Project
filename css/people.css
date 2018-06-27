@@ -4,8 +4,8 @@
 	height:264px;
 	background-image:url("../img/about/people-top.png");
 	padding-top:190px;
-	padding-left:25px;
-	padding-bottom:25px;
+	padding-left:5%;
+	padding-bottom:5%;
 	background-size: cover;
 }
 
@@ -18,14 +18,14 @@ header h1{
 .contents{
 	margin-top: 30px;
 	margin-bottom:30px !important;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 10%;
+	margin-right: 10%;
 	background-color:#FFFFCC !important;
 	padding-left: 20px;
 	padding-right: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-	height: 550px; /* adjustable */
+	height: auto; /* adjustable */
 	text-align: center;
 }
 
@@ -42,6 +42,36 @@ header h1{
 	font-size: 14pt;
 }
 
-.data{
- /*to be added later*/
+.who{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contents .data{
+	background-color:rgb(150, 151, 135) !important;
+	margin-top:10px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:2%;
+	padding-right:2%;
+	margin-left:2%;
+}
+
+.data img{
+	width:80%;
+	height:80%;
+	border-radius:50%;
+	padding-bottom:10px;
+}
+
+.data h1{
+	font-size:18px;
+	font-weight:500px;
+	line-height: 2;
+}
+
+.data p{
+	font-size:14pt;
+	line-height:1.5;
 }
