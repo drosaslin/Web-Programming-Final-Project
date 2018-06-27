@@ -2,6 +2,7 @@ body {
   font-family: 'Lato';
   background-image: url("../img/cork-background.jpg");
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 h1,
@@ -12,6 +13,20 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
+}
+
+i {
+  border: solid rgb(204, 102, 0);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 7px;
+  margin-bottom: 4px;
+  color: rgb(204, 102, 0);
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 hr.star-light,
@@ -115,6 +130,7 @@ section h2 {
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  font-size: 1.3rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -140,6 +156,37 @@ section h2 {
 
 #mainNav .flag {
   max-height: 10px;
+}
+
+.container.header-container{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 16%;
+  width: 290px;
+  background-color: rgba(251, 229, 214, 0.8);
+}
+
+.container .header-title{
+  color:rgb(102, 153, 0);
+  padding-bottom: 5px;
+}
+
+.container .header-second-title{
+  /* font-family: "Harow Solid Italic"; */
+  color: rgb(192, 0, 0);
+  padding-bottom: 5px;
+
+}
+
+.container .header-par{
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+
+}
+
+.header-container a{
+  font-size: 1.2rem;
+  text-decoration: underline;
 }
 
 @media (min-width: 992px) {
@@ -183,6 +230,11 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
+  max-height: 700px;
+  background-position: right;
+  background-image: url("../img/header-pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header.masthead h1 {
@@ -209,11 +261,56 @@ header.masthead h2 {
   }
 }
 
+@media (max-width: 1000px) {
+  .item-text {
+    font-size: 1rem;
+  }
+}
+
+.portfolio .menu-container {
+  margin-top: -38px;
+  padding: 2% 16%;
+}
+
+.portfolio .menu-title{
+  padding-left: 15px;
+  font-size: 2.3rem;
+  display: inline-block;
+  color: rgb(192, 0, 0);
+  padding-bottom: 40px;
+}
+
+.menu-container a{
+  float: right;
+  font-size: 2.5rem;
+  display: inline-block;
+}
+
+.item {
+  position: relative;
+}
+
+.item-text {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(84, 130, 53, 0.6);
+}
+
+.right-arrow {
+  max-height: 20px;
+  margin-bottom: 8px;
+}
+
 .portfolio {
   margin-bottom: -15px;
 }
 
 .portfolio .portfolio-item {
+  background-image: url("../img/mozzarella-sticks.jpg");
+  background-repeat: no-repeat;
   position: relative;
   display: block;
   max-width: 25rem;
@@ -221,11 +318,11 @@ header.masthead h2 {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
+  background-repeat: no-repeat;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -234,6 +331,20 @@ header.masthead h2 {
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+}
+
+.map-section {
+  margin-bottom: 62px;
+}
+
+.map-container {
+  padding: 2% 16%;
+}
+
+#map {
+  display: inline-block;
+  width: 895px;
+  height: 270px;
 }
 
 @media (min-width: 576px) {
@@ -335,23 +446,17 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
-.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #2C3E50;
-  color: #fff;
-}
-
 .copyright {
   background-color: #1a252f;
 }
 
 a {
-  color: #18BC9C;
+  color: rgb(204, 102, 0);
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  /* color: rgb(204, 102, 0);
+  text-decoration: underline; */
 }
 
 .btn {
@@ -359,7 +464,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: rgb(251, 229, 214) !important;
 }
 
 .bg-secondary {
@@ -392,4 +497,30 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.page-footer *{
+  color: white;
+}
+
+.row #social-media{
+  padding-left: 38px;
+}
+
+#sm-text {
+  font-size: 1.5rem;
+  margin-right: 16px;
+  display: inline-block;
+  color: black;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
+  color: white;
+  background-color: black;
+  border: solid black;
+  border-style: solid;
+  border-radius: 11px;
 }
