@@ -1,0 +1,47 @@
+.headerimg{
+	margin-top:100px;
+	width:100%;
+	height:264px;
+	background-image:url("../img/about/people-top.png");
+	padding-top:190px;
+	padding-left:25px;
+	padding-bottom:25px;
+	background-size: cover;
+}
+
+header h1{
+	font-weight:800px;
+	font-size:50px;
+	text-align: left;
+}
+
+.contents{
+	margin-top: 30px;
+	margin-bottom:30px !important;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color:#FFFFCC !important;
+	padding-left: 20px;
+	padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	height: 550px; /* adjustable */
+	text-align: center;
+}
+
+.contents h2{
+	margin-bottom: 20px;
+}
+
+.contents h4{
+	margin-bottom: 20px;
+}
+
+.contents p{
+	line-height: 2;
+	font-size: 14pt;
+}
+
+.data{
+ /*to be added later*/
+}
