@@ -111,6 +111,22 @@ section h2 {
   line-height: 3.1rem;
 }
 
+.fa-bars {
+
+}
+
+.fa {
+  border: none;
+  /* width: 56px; */
+  color: white;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 #mainNav {
   background-color:rgb(102, 153, 0);
   padding-top: 1rem;
@@ -146,7 +162,7 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 80%;
+  font-size: 302%;
   padding: 0.8rem;
 }
 
