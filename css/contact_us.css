@@ -269,7 +269,7 @@ iframe {
   display: block;
   font-family: Poppins-Regular;
   font-size: 30px;
-  color: #333333;
+  color: #e28e8e;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 33px;
@@ -298,7 +298,7 @@ iframe {
 .label-input100 {
   font-family: Poppins-Regular;
   font-size: 12px;
-  color: #555555;
+  color: rgb(192, 0, 0);
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: 1px;
