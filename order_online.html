@@ -23,82 +23,106 @@
 
     <!-- Custom styles for this template -->
     <link href="css/order_online.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary  text-uppercase" id="mainNav">
-      <!-- <div class="container"> -->
-        <a class="navbar-brand js-scroll-trigger" href=""><img src="img/slice-logo.png" class="slice-logo"></a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Menu</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">About</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Contact us</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Gallery</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Order Online</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href=""><img src="img/uk-flag.png" class="flag">EN</a>
-            </li>
-          </ul>
-        <!-- </div> -->
-      </div>
-    </nav>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
+        <!-- <div class="container"> -->
+          <a class="navbar-brand js-scroll-trigger" href=""><img src="img/slice-logo.png" class="slice-logo"></a>
+          <button class="navbar-toggler navbar-toggler-right text-uppercase bg-secondary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Menu -->
+            <i class="fa fa-bars fa-1x"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Menu</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="history.html">About</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="contact_us.html">Contact us</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Gallery</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="order_online.html">Order Online</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href=""><img src="img/uk-flag.png" class="flag">EN</a>
+              </li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </nav>
+  
 
     
     
     
-    <div class="shopping-cart">
-        <div class="items">
-            <ul>
-                <li>
-                    <div class="item">
-                        <p class="product">Mozarella Pizza</p>
-                        <p class="price">$10.00</p>
-                    </div>
-                    <button class="cart-button">cart</button>
-                </li>
-                <li>
-                    <p>Mozarella Pizza</p>
-                    <p>$10.00</p>
-                    <button>cart</button>
-                </li>
-                <li>
-                    <p>Mozarella Pizza</p>
-                    <p>$10.00</p>
-                    <button>cart</button>
-                </li>
-                <li>
-                    <p>Mozarella Pizza</p>
-                    <p>$10.00</p>
-                    <button>cart</button>
-                </li>
-                <li>
-                    <p>Mozarella Pizza</p>
-                    <p>$10.00</p>
-                    <button>cart</button>
-                </li>
-            </ul>
+    <div class="shopping-cart bg-primary">
+        <div class="container items">
+            <div class="row">
+                <ul class="item-list col-lg-6 col-md-8 col-xs-8">
+                    <li class="category">PIZZAS</li> 
+                    <li>
+                        <div class="item">
+                            <p class="product">Mozarella Pizza</p>
+                            <p class="price">$10.00</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Mozarella Pizza" data-price="10.00"><img class="cart-image" src="img/add-to-cart.png" alt=""></button>
+                        <div class="h-line"></div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="product">Ham Pizza</p>
+                            <p class="price">$8.00</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Ham Pizza" data-price="10.00"><img class="cart-image" src="img/add-to-cart.png" alt=""></button>
+                        <div class="h-line"></div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="product">Hawaiian Pizza</p>
+                            <p class="price">$12.50</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Hawaiian Pizza" data-price="10.00"><img class="cart-image" src="img/add-to-cart.png" alt=""></button>
+                        <div class="h-line"></div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="product">Combination Pizza</p>
+                            <p class="price">$15.50</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Combination Pizza" data-price="10.00"><img class="cart-image" src="img/add-to-cart.png" alt=""></button>
+                        <div class="h-line"></div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <p class="product">Pepperoni Pizza</p>
+                            <p class="price">$10.00</p>
+                        </div>
+                        <button class="add-to-cart" data-name="Pepperonni Pizza" data-price="10.00"><img class="cart-image" src="img/add-to-cart.png" alt=""></button>
+                        <div class="h-line"></div>
+                    </li>
+                </ul>
+           
+                <div class="my-cart col-lg-3 col-md-3 col-xs-3">
+                    <p>My Cart</p>
+                    <ul id="cart-items">
+                            <!-- js list -->
+                    </ul>
+                    <button class="order-btn">ORDER</button>
+                </div>
+            </div>
         </div>
     </div>
-
-
 
 
    <!-- Footer -->
@@ -224,52 +248,6 @@
       </a>
     </div>
 
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -285,6 +263,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+    <script src="js/shopping_cart.js"></script>
 
   </body>
 
