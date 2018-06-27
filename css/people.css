@@ -20,7 +20,7 @@ header h1{
 	margin-bottom:30px !important;
 	margin-left: 10%;
 	margin-right: 10%;
-	background-color:#FFFFCC !important;
+	background-color:rgb(251, 229, 214) !important;
 	padding-left: 20px;
 	padding-right: 20px;
     padding-top: 30px;
@@ -31,9 +31,11 @@ header h1{
 
 .contents h2{
 	margin-bottom: 20px;
+	color: rgb(192, 0, 0);
 }
 
 .contents h4{
+	color: rgb(102, 153, 0);
 	margin-bottom: 20px;
 }
 
@@ -66,6 +68,7 @@ header h1{
 }
 
 .data h1{
+	color: rgb(192, 0, 0);
 	font-size:18px;
 	font-weight:500px;
 	line-height: 2;
