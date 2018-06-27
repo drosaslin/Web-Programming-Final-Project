@@ -334,17 +334,58 @@ header.masthead h2 {
 }
 
 .map-section {
+  padding: 35px 16%;
   margin-bottom: 62px;
 }
 
 .map-container {
-  padding: 2% 16%;
+  /* padding: 0% 4%; */
+  /* margin-left: 16%; */
+  margin: auto;
+}
+
+.map-text {
+  padding: 3% 2%;
+}
+
+.map-text h2 {
+  color: rgb(192, 0, 0);
+  font-size: 2rem;
+}
+
+.map-text p {
+  color: black;
+  font-size: 1.5rem;
 }
 
 #map {
   display: inline-block;
   width: 895px;
   height: 270px;
+}
+
+@media (max-width: 1400px) {
+  .map-text h2 {
+    color: rgb(192, 0, 0);
+    font-size: 1.8rem;
+  }
+  
+  .map-text p {
+    color: black;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  .map-text h2 {
+    color: rgb(192, 0, 0);
+    font-size: 2rem;
+  }
+  
+  .map-text p {
+    color: black;
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 576px) {
