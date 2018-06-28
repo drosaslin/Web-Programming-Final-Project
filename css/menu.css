@@ -15,6 +15,10 @@ h6 {
   font-family: 'Montserrat';
 }
 
+.menuNav {
+  margin: auto;
+}
+
 i {
   border: solid rgb(204, 102, 0);
   border-width: 0 3px 3px 0;
@@ -607,3 +611,4 @@ a:focus, a:hover, a:active {
   border-style: solid;
   border-radius: 11px;
 }
+
