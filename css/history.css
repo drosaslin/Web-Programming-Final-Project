@@ -1,6 +1,6 @@
 .headerimg{
 	width:100%;
-	background-image:url("../img/about/history-top.png");
+	height:264px;
 	padding-top:190px;
 	padding-left:5%;
 	padding-bottom:5%;
@@ -9,7 +9,6 @@
 
 header h1{
 	font-weight:800px;
-	font-size:50px;
 	text-align: left;
 }
 
