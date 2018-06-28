@@ -25,39 +25,38 @@
 
     <body id="page-top">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
-            <!-- <div class="container"> -->
-            <a class="navbar-brand js-scroll-trigger" href=""><img src="img/slice-logo.png" class="slice-logo"></a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-secondary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- Menu -->
-                <i class="fa fa-bars fa-1x"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Menu</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">About</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Contact us</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Gallery</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="">Order Online</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href=""><img src="img/uk-flag.png" class="flag">EN</a>
-                    </li>
-                </ul>
-            <!-- </div> -->
-            </div>
-        </nav>
-        
+ <!-- Navigation -->
+ <nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
+        <!-- <div class="container"> -->
+          <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/slice-logo.png" class="slice-logo"></a>
+          <button class="navbar-toggler navbar-toggler-right text-uppercase bg-secondary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Menu -->
+            <i class="fa fa-bars fa-1x"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="history.html">About</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="contact_us.html">Contact us</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="order_online.php">Order Online</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href=""><img src="img/uk-flag.png" class="flag">EN</a>
+              </li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </nav>
         
         <!-- Header -->
         <header class="text-white text-center">
@@ -71,34 +70,32 @@
         
         <!-- sign in -->
         <div class="sign_up">
-            <h3>JOIN SO CONNECTED TODAY</h3>
+            <h3>JOIN US TODAY!</h3>
             <p class="sub">You'll get  FREE* Pizza on your birthday, a FREE** appetizer when you sign-up, plus exclusive news and offers.</p>
-            <form action="#" method="post">
+            <form action="database/insertInfo.php" method="post">
                 <!-- left -->
                 <div class="sign_left">
                     <p class="menu">First Name</p>
-                    <input type="text">
+                    <input type="text" name="first">
                     <p class="menu">Email</p>
-                    <input type="email">
+                    <input type="email" name="email">
                     <p class="menu m1000">Password</p>
-                    <input type="password" class="m1000">
+                    <input type="password" class="m1000" name="pwd">
                 </div>
 
                 <!-- right -->
                 <div class="sign_right">
                     <p class="menu">Last Name</p>
-                    <input type="text">
+                    <input type="text" name="last">
                     <p class="menu">Birthday</p>
                     <input type="text" class="birth">
                     <input type="text" class="birth">
                     <input type="text" class="birth">
-                    <p class="menu m330">Password</p>
-                    <input type="password" class="m330">
                     <p class="menu">Repeat Password</p>
-                    <input type="password">
+                    <input type="password" name="rpt_pwd">
                 </div>
                 <p class="text">By filling out this information, you are signing up for our So Connected Email program to receive news about exclusive offers, news, and members-only deals. If you are already an active So Connected member, there is no need to sign-up again here to receive emails from Pizzeria. *Free Pizza each up to $11 in menu value. Must be a So Connected member to receive offers. Taxes and excess value are excluded and are responsibility of customer. .</p>
-                <input type="submit" value="SUBMIT">
+                <input type="submit" name="submit" value="SUBMIT">
             </form>
         </div>
         

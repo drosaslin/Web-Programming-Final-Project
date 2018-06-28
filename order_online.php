@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  if(!$_SESSION['email'])
+    header("location: sign_in.html");
+?>
+  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -67,6 +73,7 @@
     
     
     <div class="shopping-cart bg-primary">
+        <a class="sign-out" href="database/sign_out.php">sign out</a>
         <div class="container items">
             <div class="row">
                 <ul class="item-list col-lg-6 col-md-8 col-xs-8">
